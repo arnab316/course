@@ -1,16 +1,17 @@
 public class Hellow{
 public static void main(String[] args) {
 
-int a = 12;
-int b = 7;
+int a = 2;
+int b = 3;
+int x =10;
+int y = 20;
+if(a>b || y>x){
+   System.out.println("welcome");
 
-int x = 10;
-int y = 9;
-
-boolean result = a>b || x < y;
-
-System.out.println(result);
-   
+}
+else{
+   System.out.println("byee");
+}
 
 }
 }
