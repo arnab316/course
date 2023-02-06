@@ -1,10 +1,12 @@
 public class Hellow{
 public static void main(String[] args) {
-   //byte b = 127;
-   int a = 257;
-   byte b = (byte)a;
 
+   int a = 47;
+   int b = 33;
+  // int c = a++;  // post-increment
+   int c = --a;  // pre-increment
+   System.out.println(c);
+   
 
-   System.out.println(b);
 }
 }
