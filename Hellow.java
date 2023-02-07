@@ -1,17 +1,16 @@
 public class Hellow{
 public static void main(String[] args) {
 
-int a = 2;
-int b = 3;
-int x =10;
-int y = 20;
-if(a>b || y>x){
-   System.out.println("welcome");
+    int n= 5;
+    String result;
+   
+    //tenerary operator
 
-}
-else{
-   System.out.println("byee");
-}
+    result = n%2==0 ? "even" : "odd";
+    System.out.println(result);
+
+
+
 
 }
 }
