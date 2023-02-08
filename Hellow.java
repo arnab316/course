@@ -1,17 +1,22 @@
 public class Hellow{
 public static void main(String[] args) 
 {
-int arr1[] ={55,78,94,44};
-// System.out.println(arr1[3]);
-for(int i =0; i<arr1.length; i++){
-  System.out.print(arr1[i]);
-}
+
+int num1 [][] = new int [3][4];
+  //  num1 [0][2] = 6;
+  //  num1 [1][0] = 3;
+  //  num1 [2][3] = 2;
+  //  System.out.println(num1 [1][0]);
+ for(int i=0;i<3;i++){
+  for(int j=0;j<4;j++){
+    num1[i][j] = (int)(Math.random() * 10);
+
+    System.out.print(num1[i][j]);
+  }
+ }
 
 
-int num[]= new int [2];
-num[0]=41;
-num[1]=13;
-// System.out.println(num[0]); 
 
 }
 }
+
