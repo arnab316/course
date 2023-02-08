@@ -1,18 +1,26 @@
- class calculator {
-    public int add(int a, int b) {
-      return a + b;
-    }   
+class computer{
+  public String getMeApen(int cost)
+{
+    if(cost>= 10)
+{
+    return "pen";
 }
+else{ return "Nothing";}
+}
+  public void music(){
+     System.out.println("playing music");
+
+}
+}
+
+
 public class Hellow{
 public static void main(String[] args) {
-   char c = 'a';
 
-   int x=7;
-   int y=10;
-   // objects
-   calculator cal = new calculator();
- System.out.println(cal.add(x,y));
+  computer obj = new computer();
+   obj.music();
+   String str = obj.getMeApen(1);
+     System.out.println(str);
 
-
-
-}}
+}
+}
