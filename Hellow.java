@@ -27,15 +27,25 @@ public static void main(String[] args)
    students[1] = s2;
    students[2] = s3;
    
- 
-  for (int i=0; i<students.length; i++)
-  {
-    System.out.print(students[i].name + ": "+ students[i].marks);
+  for(Student std : students){
+    System.out.println(std.name +" : "+  std.rollno);
   }
+
  
-  
+  // for (int i=0; i<students.length; i++)
+  // {
+  //   System.out.print(students[i].name + ": "+ students[i].marks);
+  // }
+ 
+  int arr1[] = new int [3];
 
 
+  // int arr2 []= {4,5,7,33};
+  //  for(int n : arr2){
+  //   System.out.println(n);
+  //  }
+
+ 
 }
 }
 
