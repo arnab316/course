@@ -1,49 +1,30 @@
-class Human{
+class A {
+   public A(){ // default constructor
 
-  private String name;
-  private int  age ;
-  
-public Human(){
-   name = "john";
-   age= 20;
-}
-
-
-
-public Human(String name, int age) {
-   this.name = name;
-   this.age = age;
-}
-
-
-
-public String getName() {
-   return name;
-}
-public void setName(String name) {
-   this.name = name;
-}
-public int getAge() {
-   return age;
-}
-public void setAge(int age) {
-   this.age = age;
-}
-
-
-  
-}
-
-public class Hellow
-{
-public static void main(String[] args) 
-{
-   Human h1=new Human();
-   //h1.setAge(19);      
-   //h1.setName("Ravi");
-   System.out.println(h1.getName()+ " "+h1.getAge());
-
+      System.out.println("i'm A");
+   }
+   public A(int n) { // parameterized constructor
+      System.out.println("i am number " + n);
+   }
 
 }
+
+class B extends A{
+   public B() { // default constructor
+        super();
+      System.out.println("i am b");
+ }
+       public B(int n) { // parameterized constructor
+           super(5);
+         System.out.println("i am number " + n);
+
+      }
+
 }
 
+public class Hellow {
+   public static void main(String[] args) {
+      B obj = new B();
+
+   }
+}
