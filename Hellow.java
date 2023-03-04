@@ -15,7 +15,7 @@ class B extends A{
       System.out.println("i am b");
  }
        public B(int n) { // parameterized constructor
-           super(5);
+           this();
          System.out.println("i am number " + n);
 
       }
@@ -24,7 +24,7 @@ class B extends A{
 
 public class Hellow {
    public static void main(String[] args) {
-      B obj = new B();
+      B obj = new B(5);
 
    }
 }
